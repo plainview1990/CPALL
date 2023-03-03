@@ -7,3 +7,19 @@ df.loc[df['set_of_numbers'] <= 4, 'equal_or_lower_than_4?'] = 'True'
 df.loc[df['set_of_numbers'] > 4, 'equal_or_lower_than_4?'] = 'False' 
 
 print(df)
+
+--------------------------------------------------
+
+raw_data = {'age1': [23,45,21],'age2': [10,20,50]}
+df = pd.DataFrame(raw_data, columns = ['age1','age2'])
+
+def my_fun (var1,var2,var3):
+if (df[var1]-df[var2])>0 :
+    df[var3]=df[var1]-df[var2]
+else:
+    df[var3]=0
+print(df[var3])
+
+my_fun('age1','age2','diff')
+
+
