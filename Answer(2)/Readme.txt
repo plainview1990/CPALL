@@ -6,7 +6,7 @@
 4. Run macro ตัวที่ 1 ชื่อ ConslidateWorkbooks_1 สำหรับการรวมไฟล์ excel 01-03.xlsx ให้เป็นไฟล์เดียว
 5. Run macro ตัวที่ 2 ชื่อ DeleteWorksheet_2 สำหรับลบ worksheet ที่ไม่ต้องการออกไป ในที่นี้คือ worksheet ที่ชื่อ "Sheet1"
 6. Run macro ตัวที่ 3 ชื่อ SortWorksheets_3 สำหรับการเรียงหน้า worksheet โดยหลังจากสั่งรัน macro แล้ว จะมีให้เลือกกด Yes สำหรับการเรียงเลขหน้า worksheet จากน้อยไปมาก (Ascending)
-7. มาที่ VBA Editor : ไปที่ Tab Tools > References > ให้ติ๊กเครื่องหมายถูก : Microsoft PowerPoint 16.0 Object Library > OK สำหรับการทำงาน Macro ร่วมกับ MS.Powerpoint
+7. มาที่ VBA Editor : ไปที่ Tab Tools > References > ให้ติ๊กเครื่องหมายถูก : Microsoft PowerPoint 16.0 Object Library > OK สำหรับการทำงาน Macro ร่วมกับ MS.PowerPoint
 8. Run Macro ตัวที่ 4 CopyMultiObject_4 สำหรับการแสดงผล จาก Excel ไปที่ Powerpoint บนเงื่อนไข ให้เลือกข้อมูลทั้งหมดจากทุก worksheet ของ Excel มาแสดงบน slide หน้าเดียวของ PowerPoint
-9. Import file Module-powerpoint.bas บน VBA Editor ของ MS. Powerpoint ที่ได้จากผลลัพธ์ในข้อ 8 ในตัวอย่างของผู้ใช้คือไฟล์ "output2.pptx"
-10. Run macro ทุกตัวชื่อดังนี้ AddText1, AddText2 และ AddText3 สำหรับการสร้าง Textbox และข้อความบนหน้าสไลด์ของ MS. Powerpoint
+9. Import file Module-powerpoint.bas บน VBA Editor จากไฟล์ MS. PowerPoint ที่ได้ผลลัพธ์จากในข้อ 8
+10. Run macro ทุกตัวชื่อดังนี้ AddText1, AddText2 และ AddText3 สำหรับการสร้าง Textbox และข้อความบนหน้าสไลด์ของ MS. PowerPoint
